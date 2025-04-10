@@ -37,7 +37,7 @@ if csv_file and json_template_file:
                     continue
 
                 # File name from first column value
-                filename = f"{row['I']}.json"
+                filename = f"{row['FileName']}.json"
                 file_path = os.path.join(output_dir, filename)
 
                 # Save compact JSON
